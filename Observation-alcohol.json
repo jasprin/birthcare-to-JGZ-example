@@ -1,0 +1,46 @@
+{
+  "resourceType": "Observation",
+  "id": "observation-alcohol-01",
+  "meta": {
+    "versionId": "1",
+    "lastUpdated": "2024-05-15T12:09:29.8191619+00:00",
+    "profile": [
+      "http://fhir.nl/fhir/StructureDefinition/nl-core-observation",
+      "http://nictiz.nl/fhir/StructureDefinition/zib-AlcoholUse"
+    ]
+  },
+  "identifier": [
+    {
+      "system": "https://gebruikers.babyconnect.org/page/view/ea6b0224-7548-4153-ac27-d562af2dd49f/jgz",
+      "value": "observation-alcohol-01"
+    }
+  ],
+  "status": "final",
+  "code": {
+    "coding": [
+      {
+        "system": "http://snomed.info/sct",
+        "code": "228273003",
+        "display": "bevinding betreffende alcoholgebruik (bevinding)"
+      }
+    ]
+  },
+  "subject": {
+    "reference": "Patient/hanna-xxxkooij",
+    "display": "Hanna H XXX_Kooij"
+  },
+  "context": {
+    "reference": "Encounter/encounter-01",
+    "display": "Intake Hanna XXX_Kooij-van XXX_Faraday"
+  },
+  "valueCodeableConcept": {
+    "coding": [
+      {
+        "system": "http://snomed.info/sct",
+        "code": "105542008",
+        "display": "drinkt momenteel geen alcohol (bevinding)"
+      }
+    ]
+  },
+  "comment": "tbv conceptie al gestopt met alcohol consumptie"
+}
