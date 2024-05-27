@@ -1,0 +1,40 @@
+{
+  "resourceType": "Observation",
+  "id": "observation-apgar-1-min-01",
+  "meta": {
+    "versionId": "1",
+    "lastUpdated": "2024-05-15T12:09:29.8191619+00:00",
+    "profile": [
+      "http://fhir.nl/fhir/StructureDefinition/nl-core-observation",
+      "http://nictiz.nl/fhir/StructureDefinition/zib-ApgarScore"
+    ]
+  },
+  "identifier": [
+    {
+      "system": "https://gebruikers.babyconnect.org/page/view/ea6b0224-7548-4153-ac27-d562af2dd49f/jgz",
+      "value": "observation-apgar-1-min-01"
+    }
+  ],
+  "status": "final",
+  "code": {
+    "coding": [
+      {
+        "system": "http://loinc.org",
+        "code": "9272-6",
+        "display": "1 minute Apgar Score"
+      }
+    ]
+  },
+  "subject": {
+    "reference": "Patient/milan-xxxkooij",
+    "display": "Milan XXX_Kooij"
+  },
+  "context": {
+    "reference": "EpisodeOfCare/episodeofcare-zwangerschap-03",
+    "display": "Derde zorgepisode Hanna XXX_Kooij-van XXX_Faraday"
+  },
+  "effectiveDateTime": "2024-04-01",
+  "valueQuantity": {
+    "value": 7
+  }
+}
