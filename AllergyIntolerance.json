@@ -1,0 +1,116 @@
+{
+  "resourceType": "AllergyIntolerance",
+  "id": "allergyintolerance-01",
+  "meta": {
+    "profile": [
+      "http://nictiz.nl/fhir/StructureDefinition/zib-AllergyIntolerance"
+    ]
+  },
+  "identifier": [
+    {
+      "system": "https://gebruikers.babyconnect.org/page/view/ea6b0224-7548-4153-ac27-d562af2dd49f/jgz",
+      "value": "allergyintolerance-01"
+    }
+  ],
+  "clinicalStatus": "active",
+  "_clinicalStatus": {
+    "extension": [
+      {
+        "url": "http://nictiz.nl/fhir/StructureDefinition/code-specification",
+        "valueCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/v3/ActStatus",
+              "code": "active",
+              "display": "Active"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "verificationStatus": "confirmed",
+  "category": ["biologic"],
+  "_category": [
+    {
+      "extension": [
+        {
+          "url": "http://nictiz.nl/fhir/StructureDefinition/code-specification",
+          "valueCodeableConcept": {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "419199007",
+                "display": "Allergy to substance"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "criticality": "high",
+  "_criticality": {
+    "extension": [
+      {
+        "url": "http://nictiz.nl/fhir/StructureDefinition/code-specification",
+        "valueCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "24484000",
+              "display": "Severe"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "code": {
+    "coding": [
+      {
+        "system": "http://snomed.info/sct",
+        "code": "288328004",
+        "display": "Bee venom"
+      }
+    ]
+  },
+  "patient": {
+    "reference": "Patient/hanna-xxxkooij",
+    "display": "Hanna XXX_Kooij-van XXX_Faraday"
+  },
+  "onsetDateTime": "2018-11-08",
+  "lastOccurrence": "2019-11-15",
+  "reaction": [
+    {
+      "manifestation": [
+        {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "16932000",
+              "display": "Nausea and vomiting"
+            }
+          ]
+        }
+      ],
+      "severity": "severe",
+      "_severity": {
+        "extension": [
+          {
+            "url": "http://nictiz.nl/fhir/StructureDefinition/code-specification",
+            "valueCodeableConcept": {
+              "coding": [
+                {
+                  "system": "http://snomed.info/sct",
+                  "code": "24484000",
+                  "display": "Severe"
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}
