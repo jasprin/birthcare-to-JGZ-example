@@ -1,0 +1,57 @@
+{
+  "resourceType": "Practitioner",
+  "id": "practitioner-echoscopie-01",
+  "meta": {
+    "versionId": "1",
+    "lastUpdated": "2024-05-15T12:09:29.8191619+00:00",
+    "profile": ["http://fhir.nl/fhir/StructureDefinition/nl-core-practitioner"]
+  },
+  "identifier": [
+    {
+      "system": "http://fhir.nl/fhir/NamingSystem/uzi-nr-pers",
+      "value": "8452962"
+    },
+    {
+      "system": "https://gebruikers.babyconnect.org/page/view/ea6b0224-7548-4153-ac27-d562af2dd49f/jgz",
+      "value": "practitioner-echoscopie-01"
+    }
+  ],
+  "name": [
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/humanname-assembly-order",
+          "valueCode": "NL1"
+        }
+      ],
+      "family": "XXX_Groot",
+      "_family": {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/humanname-own-name",
+            "valueString": "XXX_Groot"
+          }
+        ]
+      },
+      "given": ["Helma", "H."],
+      "_given": [
+        {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/iso21090-EN-qualifier",
+              "valueCode": "BR"
+            }
+          ]
+        },
+        {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/iso21090-EN-qualifier",
+              "valueCode": "IN"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
