@@ -1,0 +1,53 @@
+{
+  "resourceType": "Condition",
+  "id": "condition-congenitale-aandoening-01",
+  "meta": {
+    "profile": [
+      "http://nictiz.nl/fhir/StructureDefinition/zib-Problem",
+      "http://nictiz.nl/fhir/StructureDefinition/bc-DisorderOfChild"
+    ]
+  },
+  "identifier": [
+    {
+      "system": "https://gebruikers.babyconnect.org/page/view/ea6b0224-7548-4153-ac27-d562af2dd49f/jgz",
+      "value": "condition-congenitale-aandoening-01"
+    }
+  ],
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/condition-partOf",
+      "valueReference": {
+        "reference": "Condition/condition-zwangerschap-03"
+      }
+    }
+  ],
+  "clinicalStatus": "active",
+  "category": [
+    {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "414025005",
+          "display": "aandoening van foetus of neonaat"
+        }
+      ]
+    }
+  ],
+  "code": {
+    "coding": [
+      {
+        "system": "http://snomed.info/sct",
+        "code": "396347007",
+        "display": "hernia umbilicalis (aandoening)"
+      }
+    ]
+  },
+  "subject": {
+    "reference": "Patient/milan-xxxkooij",
+    "display": "Milan XXX_Kooij"
+  },
+  "context": {
+    "reference": "EpisodeOfCare/episodeofcare-zwangerschap-03",
+    "display": "Derde zorgepisode Hanna XXX_Kooij-van XXX_Faraday"
+  }
+}
