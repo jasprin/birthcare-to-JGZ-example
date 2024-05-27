@@ -1,0 +1,124 @@
+{
+  "resourceType": "Observation",
+  "id": "observation-gezinssituatie-kind-01",
+  "meta": {
+    "profile": [
+      "http://fhir.nl/fhir/StructureDefinition/nl-core-observation",
+      "http://nictiz.nl/fhir/StructureDefinition/zib-FamilySituationChild"
+    ]
+  },
+  "status": "final",
+  "code": {
+    "coding": [
+      {
+        "system": "http://snomed.info/sct",
+        "code": "55801000146105",
+        "display": "Finding of family details and household composition of child (finding)"
+      }
+    ]
+  },
+  "subject": {
+    "reference": "Patient/milan-xxxkooij",
+    "display": "Milan XXX_Kooij"
+  },
+  "effectiveDateTime": "2024-05-21",
+  "comment": "Oedipuscomplex",
+  "component": [
+    {
+      "code": {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "224130005",
+            "display": "Household composition (observable entity)"
+          }
+        ]
+      },
+      "valueCodeableConcept": {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "224139006",
+            "display": "Lives with mother"
+          }
+        ],
+        "text": "Woont bij moeder"
+      }
+    },
+    {
+      "code": {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "224095004",
+            "display": "Number of siblings (observable entity)"
+          }
+        ]
+      },
+      "valueQuantity": {
+        "value": 1
+      }
+    },
+    {
+      "extension": [
+        {
+          "url": "http://nictiz.nl/fhir/StructureDefinition/zib-FamilySituationChild-RelatedPerson",
+          "valueReference": {
+            "reference": "RelatedPerson/man-xxxkooij-01",
+            "display": "Natural father"
+          }
+        }
+      ],
+      "code": {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "40683002",
+            "display": "Parent (person)"
+          }
+        ]
+      }
+    },
+    {
+      "extension": [
+        {
+          "url": "http://nictiz.nl/fhir/StructureDefinition/zib-FamilySituationChild-RelatedPerson",
+          "valueReference": {
+            "reference": "Patient/hanna-xxxkooij",
+            "display": "Natural mother"
+          }
+        }
+      ],
+      "code": {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "40683002",
+            "display": "Parent (person)"
+          }
+        ]
+      }
+    },
+    {
+      "extension": [
+        {
+          "url": "http://nictiz.nl/fhir/StructureDefinition/zib-FamilySituationChild-RelatedPerson",
+          "valueReference": {
+            "reference": "RelatedPerson/kind-xxxkooij-01",
+            "display": "Brother"
+          }
+        }
+      ],
+      "code": {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "375005",
+            "display": "Sibling (person)"
+          }
+        ]
+      },
+      "valueDateTime": "2020-04-01"
+    }
+  ]
+}
