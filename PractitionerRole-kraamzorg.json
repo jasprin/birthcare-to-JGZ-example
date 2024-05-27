@@ -1,0 +1,36 @@
+{
+  "resourceType": "PractitionerRole",
+  "id": "practitionerrole-kraamzorg-01",
+  "meta": {
+    "versionId": "1",
+    "lastUpdated": "2024-05-15T12:09:29.8191619+00:00",
+    "profile": [
+      "http://fhir.nl/fhir/StructureDefinition/nl-core-practitionerrole"
+    ]
+  },
+  "identifier": [
+    {
+      "system": "https://gebruikers.babyconnect.org/page/view/ea6b0224-7548-4153-ac27-d562af2dd49f/jgz",
+      "value": "practitionerrole-kraamzorg-01"
+    }
+  ],
+  "practitioner": {
+    "reference": "Practitioner/practitioner-kraamzorg-01",
+    "display": "Carolien XXX_Meijer"
+  },
+  "organization": {
+    "reference": "Organization/organization-kraamzorg-01",
+    "display": "Kraamzorg Het Blije Ei"
+  },
+  "specialty": [
+    {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "151531000146108",
+          "display": "kraamverzorgende (beroep)"
+        }
+      ]
+    }
+  ]
+}

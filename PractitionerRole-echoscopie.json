@@ -1,0 +1,36 @@
+{
+  "resourceType": "PractitionerRole",
+  "id": "practitionerrole-echoscopie-01",
+  "meta": {
+    "versionId": "1",
+    "lastUpdated": "2024-05-15T12:09:29.8191619+00:00",
+    "profile": [
+      "http://fhir.nl/fhir/StructureDefinition/nl-core-practitionerrole"
+    ]
+  },
+  "identifier": [
+    {
+      "system": "https://gebruikers.babyconnect.org/page/view/ea6b0224-7548-4153-ac27-d562af2dd49f/jgz",
+      "value": "practitionerrole-echoscopie-01"
+    }
+  ],
+  "practitioner": {
+    "reference": "Practitioner/practitioner-echoscopie-01",
+    "display": "Helma XXX_Groot"
+  },
+  "organization": {
+    "reference": "Organization/organization-echoscopie-01",
+    "display": "Echopraktijk Groei"
+  },
+  "specialty": [
+    {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "789543004",
+          "display": "echoscopist (beroep)"
+        }
+      ]
+    }
+  ]
+}
