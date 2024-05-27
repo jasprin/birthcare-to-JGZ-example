@@ -1,0 +1,96 @@
+{
+  "resourceType": "Organization",
+  "id": "organization-echoscopie-01",
+  "meta": {
+    "versionId": "1",
+    "lastUpdated": "2024-05-15T12:09:29.8191619+00:00",
+    "profile": ["http://fhir.nl/fhir/StructureDefinition/nl-core-organization"]
+  },
+  "identifier": [
+    {
+      "system": "http://fhir.nl/fhir/NamingSystem/agb-z",
+      "value": "90123456"
+    },
+    {
+      "system": "https://gebruikers.babyconnect.org/page/view/ea6b0224-7548-4153-ac27-d562af2dd49f/jgz",
+      "value": "organization-echoscopie-01"
+    }
+  ],
+  "type": [
+    {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "B2",
+          "display": "Echocentrum"
+        }
+      ]
+    }
+  ],
+  "name": "Echopraktijk Groei",
+  "address": [
+    {
+      "use": "work",
+      "line": ["Oude Middenweg 55"],
+      "_line": [
+        {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-streetName",
+              "valueString": "Oude Middenweg"
+            },
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-houseNumber",
+              "valueString": "55"
+            }
+          ]
+        }
+      ],
+      "city": "Den Haag",
+      "postalCode": "2491AC",
+      "country": "NLD",
+      "_country": {
+        "extension": [
+          {
+            "url": "http://nictiz.nl/fhir/StructureDefinition/code-specification",
+            "valueCodeableConcept": {
+              "coding": [
+                {
+                  "system": "urn:iso:std:iso:3166",
+                  "code": "NL",
+                  "display": "Nederland"
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "telecom": [
+    {
+      "extension": [
+        {
+          "url": "http://nictiz.nl/fhir/StructureDefinition/zib-ContactInformation-TelecomType",
+          "valueCodeableConcept": {
+            "coding": [
+              {
+                "system": "urn:oid:2.16.840.1.113883.2.4.3.11.60.40.4.22.1",
+                "code": "LL",
+                "display": "Vast telefoonnummer"
+              }
+            ]
+          }
+        }
+      ],
+      "system": "phone",
+      "value": "098-1234567",
+      "use": "work"
+    },
+    {
+      "system": "email",
+      "value": "oei@groei.nl",
+      "use": "work"
+    }
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "resourceType": "Organization",
+  "id": "organization-huisarts-01",
+  "meta": {
+    "versionId": "1",
+    "lastUpdated": "2024-05-15T12:09:29.8191619+00:00",
+    "profile": ["http://fhir.nl/fhir/StructureDefinition/nl-core-organization"]
+  },
+  "identifier": [
+    {
+      "system": "http://fhir.nl/fhir/NamingSystem/ura",
+      "value": "00003333"
+    },
+    {
+      "system": "https://gebruikers.babyconnect.org/page/view/ea6b0224-7548-4153-ac27-d562af2dd49f/jgz",
+      "value": "organization-huisarts-01"
+    }
+  ],
+  "type": [
+    {
+      "coding": [
+        {
+          "system": "http://nictiz.nl/fhir/NamingSystem/organization-type",
+          "code": "Z3",
+          "display": "Huisartspraktijk (zelfstandig of groepspraktijk)"
+        }
+      ]
+    }
+  ],
+  "name": "Aesculaap",
+  "address": [
+    {
+      "use": "work",
+      "line": ["Valkendael 45"],
+      "_line": [
+        {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-streetName",
+              "valueString": "Valkendael"
+            },
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-houseNumber",
+              "valueString": "45"
+            }
+          ]
+        }
+      ],
+      "city": "Maastricht",
+      "postalCode": "6245HK",
+      "country": "NLD",
+      "_country": {
+        "extension": [
+          {
+            "url": "http://nictiz.nl/fhir/StructureDefinition/code-specification",
+            "valueCodeableConcept": {
+              "coding": [
+                {
+                  "system": "urn:oid:2.16.840.1.113883.2.4.4.16.34",
+                  "code": "6030",
+                  "display": "Nederland"
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "telecom": [
+    {
+      "extension": [
+        {
+          "url": "http://nictiz.nl/fhir/StructureDefinition/zib-ContactInformation-TelecomType",
+          "valueCodeableConcept": {
+            "coding": [
+              {
+                "system": "urn:oid:2.16.840.1.113883.2.4.3.11.60.40.4.22.1",
+                "code": "LL",
+                "display": "Vast telefoonnummer"
+              }
+            ]
+          }
+        }
+      ],
+      "system": "phone",
+      "value": "012-9876543",
+      "use": "work"
+    },
+    {
+      "system": "email",
+      "value": "info@aesculaap.nl",
+      "use": "work"
+    }
+  ]
+}
