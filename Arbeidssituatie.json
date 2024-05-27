@@ -1,0 +1,44 @@
+{
+  "resourceType": "Observation",
+  "id": "arbeidssituatie-01",
+  "meta": {
+    "profile": [
+      "http://nictiz.nl/fhir/StructureDefinition/zib-ParticipationInSociety"
+    ]
+  },
+  "identifier": [
+    {
+      "system": "https://gebruikers.babyconnect.org/page/view/ea6b0224-7548-4153-ac27-d562af2dd49f/jgz",
+      "value": "arbeidssituatie-01"
+    }
+  ],
+  "status": "final",
+  "code": {
+    "coding": [
+      {
+        "system": "http://snomed.info/sct",
+        "code": "314845004",
+        "display": "Patient participation status"
+      }
+    ]
+  },
+  "subject": {
+    "reference": "Patient/hanna-xxxkooij",
+    "display": "Hanna XXX_Kooij-van XXX_Faraday"
+  },
+  "effectiveDateTime": "2019-08-10",
+  "component": [
+    {
+      "code": {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "364703007",
+            "display": "Employment detail (observable entity)"
+          }
+        ]
+      },
+      "valueString": "ICT-er"
+    }
+  ]
+}
