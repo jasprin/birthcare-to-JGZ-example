@@ -1,0 +1,62 @@
+{
+  "resourceType": "CareTeam",
+  "id": "careteam-01",
+  "meta": {
+    "profile": ["http://nictiz.nl/fhir/StructureDefinition/bc-CareTeam"]
+  },
+  "identifier": [
+    {
+      "system": "https://gebruikers.babyconnect.org/page/view/ea6b0224-7548-4153-ac27-d562af2dd49f/jgz",
+      "value": "careteam-01"
+    }
+  ],
+  "subject": {
+    "reference": "Patient/hanna-xxxkooij",
+    "display": "Hanna XXX_Kooij-van XXX_Faraday"
+  },
+  "context": {
+    "reference": "EpisodeOfCare/episodeofcare-zwangerschap-03",
+    "display": "Derde zorgepisode Hanna XXX_Kooij-van XXX_Faraday"
+  },
+  "period": {
+    "start": "2023-07-22T08:30:00+01:00"
+  },
+  "participant": [
+    {
+      "member": {
+        "reference": "RelatedPerson/man-xxxkooij-01",
+        "display": "Jasper XXX_Kooij"
+      }
+    },
+    {
+      "member": {
+        "reference": "Practitioner/practitioner-verloskunde-01",
+        "display": "Gemma XXX_Groeneboom XXX_Gras"
+      }
+    },
+    {
+      "member": {
+        "reference": "Practitioner/practitioner-kraamzorg-01",
+        "display": "Carolien XXX_Meijer"
+      }
+    },
+    {
+      "member": {
+        "reference": "Practitioner/practitioner-echoscopie-01",
+        "display": "Helma XXX_Groot"
+      }
+    },
+    {
+      "member": {
+        "reference": "Practitioner/practitioner-huisarts-01",
+        "display": "Lydie van der XXX_Ploeg"
+      }
+    }
+  ],
+  "reasonReference": [
+    {
+      "reference": "Condition/condition-zwangerschap-03",
+      "display": "Derde zwangerschap Hanna XXX_Kooij-van XXX_Faraday"
+    }
+  ]
+}
