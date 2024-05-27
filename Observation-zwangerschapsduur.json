@@ -1,0 +1,58 @@
+{
+  "resourceType": "Observation",
+  "id": "observation-zwangerschapsduur-01",
+  "meta": {
+    "versionId": "1",
+    "lastUpdated": "2024-05-15T12:09:29.8191619+00:00",
+    "profile": [
+      "http://fhir.nl/fhir/StructureDefinition/nl-core-observation",
+      "http://nictiz.nl/fhir/StructureDefinition/zib-Pregnancy-PregnancyDuration"
+    ]
+  },
+  "identifier": [
+    {
+      "system": "https://gebruikers.babyconnect.org/page/view/ea6b0224-7548-4153-ac27-d562af2dd49f/jgz",
+      "value": "observation-zwangerschapsduur-01"
+    }
+  ],
+  "extension": [
+    {
+      "url": "http://nictiz.nl/fhir/StructureDefinition/observation-focusSTU3",
+      "valueReference": {
+        "reference": "Condition/condition-zwangerschap-03",
+        "display": "Derde zwangerschap Hanna XXX_Kooij-van XXX_Faraday"
+      }
+    },
+    {
+      "url": "http://nictiz.nl/fhir/StructureDefinition/workflow-supportingInfoSTU3",
+      "valueReference": {
+        "reference": "Procedure/procedure-bevalling-01",
+        "display": "Bevalling derde zwangerschap Hanna XXX_Kooij-van XXX_Faraday"
+      }
+    }
+  ],
+  "status": "final",
+  "code": {
+    "coding": [
+      {
+        "system": "http://snomed.info/sct",
+        "code": "57036006",
+        "display": "Fetal gestational age"
+      }
+    ]
+  },
+  "subject": {
+    "reference": "Patient/hanna-xxxkooij",
+    "display": "Hanna XXX_Kooij-van XXX_Faraday"
+  },
+  "context": {
+    "reference": "EpisodeOfCare/episodeofcare-zwangerschap-03",
+    "display": "Derde zorgepisode Hanna XXX_Kooij-van XXX_Faraday"
+  },
+  "effectiveDateTime": "2024-04-01",
+  "valueQuantity": {
+    "value": 280,
+    "system": "http://unitsofmeasure.org",
+    "code": "d"
+  }
+}
