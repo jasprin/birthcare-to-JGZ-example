@@ -1,0 +1,97 @@
+{
+  "resourceType": "ClinicalImpression",
+  "id": "clinicalImpression-01",
+  "meta": {
+    "profile": [
+      "http://nictiz.nl/fhir/StructureDefinition/bc-ClinicalImpression"
+    ]
+  },
+  "identifier": [
+    {
+      "system": "https://gebruikers.babyconnect.org/page/view/ea6b0224-7548-4153-ac27-d562af2dd49f/jgz",
+      "value": "clinicalImpression-01"
+    }
+  ],
+  "extension": [
+    {
+      "url": "http://nictiz.nl/fhir/StructureDefinition/bc-clinicalimpression-management",
+      "valueCodeableConcept": {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "149861000146102",
+            "display": "invasieve prenatale diagnostiek geïndiceerd (situatie)"
+          }
+        ]
+      }
+    }
+  ],
+  "status": "completed",
+  "subject": {
+    "reference": "Patient/hanna-xxxkooij",
+    "display": "Hanna XXX_Kooij-van XXX_Faraday"
+  },
+  "context": {
+    "reference": "EpisodeOfCare/episodeofcare-zwangerschap-03",
+    "display": "Derde zorgepisode Hanna XXX_Kooij-van XXX_Faraday"
+  },
+  "effectiveDateTime": "2023-07-22T08:30:00+01:00",
+  "assessor": {
+    "extension": [
+      {
+        "url": "http://nictiz.nl/fhir/StructureDefinition/practitionerrole-reference",
+        "valueReference": {
+          "reference": "PractitionerRole/practitionerrole-verloskunde-01",
+          "display": "Gemma XXX_Groeneboom-XXX_Gras - Verloskundigenpraktijk 't Groen"
+        }
+      }
+    ],
+    "reference": "Practitioner/verloskunde-practitioner-01",
+    "display": "Gemma XXX_Groeneboom XXX_Gras"
+  },
+  "investigation": [
+    {
+      "code": {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "271992004",
+            "display": "Obstetrisch onderzoek (verrichting)"
+          }
+        ]
+      },
+      "item": [
+        {
+          "extension": [
+            {
+              "url": "http://nictiz.nl/fhir/StructureDefinition/bc-clinicalimpression-procedure",
+              "valueReference": {
+                "reference": "Procedure/nipt-test",
+                "display": "Nipt test"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "summary": "Indicatie prenatale diagnostiek",
+  "finding": [
+    {
+      "itemCodeableConcept": {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "47200007",
+            "display": "hoogrisicozwangerschap (bevinding)"
+          }
+        ]
+      }
+    }
+  ],
+  "note": [
+    {
+      "text": "verhoogd risico down syndroom"
+    }
+  ]
+}
