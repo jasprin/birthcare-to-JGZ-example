@@ -1,0 +1,70 @@
+{
+  "resourceType": "Encounter",
+  "id": "encounter-01",
+  "meta": {
+    "versionId": "1",
+    "lastUpdated": "2024-05-15T12:09:29.8191619+00:00",
+    "profile": ["http://nictiz.nl/fhir/StructureDefinition/bc-Encounter"]
+  },
+  "identifier": [
+    {
+      "system": "https://gebruikers.babyconnect.org/page/view/ea6b0224-7548-4153-ac27-d562af2dd49f/jgz",
+      "value": "encounter-01"
+    }
+  ],
+  "status": "finished",
+  "class": {
+    "system": "http://hl7.org/fhir/v3/ActCode",
+    "code": "AMB",
+    "display": "ambulatory"
+  },
+  "type": [
+    {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "11429006",
+          "display": "consult (verrichting)"
+        }
+      ]
+    }
+  ],
+  "subject": {
+    "reference": "Patient/hanna-xxxkooij",
+    "display": "Hanna XXX_Kooij-van XXX_Faraday"
+  },
+  "episodeOfCare": [
+    {
+      "reference": "EpisodeOfCare/episodeofcare-zwangerschap-03",
+      "display": "Derde zorgepisode Hanna XXX_Kooij-van XXX_Faraday"
+    }
+  ],
+  "participant": [
+    {
+      "individual": {
+        "extension": [
+          {
+            "url": "http://nictiz.nl/fhir/StructureDefinition/practitionerrole-reference",
+            "valueReference": {
+              "reference": "PractitionerRole/practitionerrole-verloskunde-01",
+              "display": "Verloskundige Gemma XXX_Groeneboom-XXX_Gras"
+            }
+          }
+        ],
+        "reference": "Practitioner/practitioner-verloskunde-01",
+        "display": "Gemma XXX_Groeneboom-XXX_Gras"
+      }
+    }
+  ],
+  "period": {
+    "start": "2023-07-22"
+  },
+  "diagnosis": [
+    {
+      "condition": {
+        "reference": "Condition/condition-zwangerschap-03",
+        "display": "Derde zwangerschap Hanna XXX_Kooij-van XXX_Faraday"
+      }
+    }
+  ]
+}
