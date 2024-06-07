@@ -11,11 +11,11 @@
       "system": "http://fhir.nl/fhir/NamingSystem/uzi-nr-pers",
       "value": "129854656"
     },
-        {
+    {
       "system": "http://fhir.nl/fhir/NamingSystem/agb-z",
       "value": "01069857"
     },
-        {
+    {
       "system": "http://fhir.nl/fhir/NamingSystem/big",
       "value": "12345678912"
     },
