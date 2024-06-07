@@ -10,8 +10,9 @@
     ]
   },
   "identifier": {
-    "system": "https://gebruikers.babyconnect.org/page/view/ea6b0224-7548-4153-ac27-d562af2dd49f/jgz",
-    "value": "milan-xxxkooij"
+    "use": "official",
+    "system": "http://fhir.nl/fhir/NamingSystem/bsn",
+    "value": "954880250"
   },
   "name": [
     {
