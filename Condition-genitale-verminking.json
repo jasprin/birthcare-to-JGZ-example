@@ -1,0 +1,44 @@
+{
+  "resourceType": "Condition",
+  "id": "condition-genitale-verminking-01",
+  "meta": {
+    "versionId": "1",
+    "lastUpdated": "2024-05-15T12:09:29.8191619+00:00",
+    "profile": ["http://nictiz.nl/fhir/StructureDefinition/zib-Problem"]
+  },
+  "identifier": [
+    {
+      "system": "https://gebruikers.babyconnect.org/page/view/ea6b0224-7548-4153-ac27-d562af2dd49f/jgz",
+      "value": "condition-genitale-verminking-01"
+    }
+  ],
+  "clinicalStatus": "active",
+  "category": [
+    {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "404684003",
+          "display": "Klinische bevinding (bevinding)"
+        }
+      ]
+    }
+  ],
+  "code": {
+    "coding": [
+      {
+        "system": "http://snomed.info/sct",
+        "code": "95041000119101",
+        "display": "vrouwelijkegenitaliënverminking (aandoening)"
+      }
+    ]
+  },
+  "subject": {
+    "reference": "Patient/hanna-xxxkooij",
+    "display": "Hanna XXX_Kooij-van XXX_Faraday"
+  },
+  "context": {
+    "reference": "EpisodeOfCare/episodeofcare-zwangerschap-03",
+    "display": "Derde zorgepisode Hanna XXX_Kooij-van XXX_Faraday"
+  }
+}
