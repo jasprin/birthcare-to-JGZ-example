@@ -30,7 +30,7 @@
       {
         "system": "http://loinc.org",
         "code": "11996-6",
-        "display": "[#] Pregnancies"
+        "display": "Zwangerschappen [aantal] d.m.v. rapportage"
       },
       {
         "system": "http://snomed.info/sct",
