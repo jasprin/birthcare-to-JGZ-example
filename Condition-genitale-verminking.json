@@ -18,8 +18,8 @@
       "coding": [
         {
           "system": "http://snomed.info/sct",
-          "code": "404684003",
-          "display": "Klinische bevinding (bevinding)"
+          "code": "282291009",
+          "display": "Diagnose"
         }
       ]
     }
