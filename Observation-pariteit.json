@@ -30,7 +30,7 @@
       {
         "system": "http://loinc.org",
         "code": "11977-6",
-        "display": "[#] Parity"
+        "display": "Pariteit [aantal] d.m.v. rapportage"
       },
       {
         "system": "http://snomed.info/sct",
