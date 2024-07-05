@@ -9,11 +9,13 @@
       "http://nictiz.nl/fhir/StructureDefinition/bc-Woman"
     ]
   },
-  "identifier": {
-    "use": "official",
-    "system": "http://fhir.nl/fhir/NamingSystem/bsn",
-    "value": "999900717"
-  },
+  "identifier": [
+    {
+      "use": "official",
+      "system": "http://fhir.nl/fhir/NamingSystem/bsn",
+      "value": "999900717"
+    }
+  ],
   "name": [
     {
       "extension": [

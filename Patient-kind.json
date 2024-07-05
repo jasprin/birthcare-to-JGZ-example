@@ -9,11 +9,13 @@
       "http://nictiz.nl/fhir/StructureDefinition/bc-Child"
     ]
   },
-  "identifier": {
-    "use": "official",
-    "system": "http://fhir.nl/fhir/NamingSystem/bsn",
-    "value": "954880250"
-  },
+  "identifier": [
+    {
+      "use": "official",
+      "system": "http://fhir.nl/fhir/NamingSystem/bsn",
+      "value": "954880250"
+    }
+  ],
   "name": [
     {
       "extension": [
