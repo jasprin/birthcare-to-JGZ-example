@@ -21,7 +21,7 @@
       {
         "system": "http://loinc.org",
         "code": "8339-4",
-        "display": "Birth weight Measured"
+        "display": "Lichaamsgewicht^bij geboorte [massa] d.m.v. meting"
       }
     ]
   },
