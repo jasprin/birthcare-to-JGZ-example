@@ -19,7 +19,7 @@
         {
           "system": "http://snomed.info/sct",
           "code": "282291009",
-          "display": "Diagnose"
+          "display": "interpretatie van diagnose"
         }
       ]
     }
