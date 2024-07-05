@@ -21,7 +21,7 @@
       {
         "system": "http://loinc.org",
         "code": "9274-2",
-        "display": "5 minute Apgar Score"
+        "display": "Score^5 min na geboorte [functie] d.m.v. Apgar' (nl-NL)"
       }
     ]
   },
