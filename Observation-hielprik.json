@@ -16,26 +16,12 @@
     }
   ],
   "status": "final",
-  "category": [
-    {
-      "coding": [
-        {
-          "system": "http://hl7.org/fhir/reference",
-          "version": "Energetic Zebra",
-          "code": "",
-          "display": "Crazy Dog",
-          "userSelected": "false"
-        }
-      ],
-      "text": "Energetic Dog"
-    }
-  ],
   "code": {
     "coding": [
       {
         "system": "http://snomed.info/sct",
         "code": "77262006",
-        "display": "hielprik (verrichting) "
+        "display": "hielprik (verrichting)"
       }
     ]
   },
