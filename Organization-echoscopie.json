@@ -20,7 +20,8 @@
     {
       "coding": [
         {
-          "system": "http://snomed.info/sct",
+          "system": "http://nictiz.nl/fhir/NamingSystem/organization-type",
+          "version": "2020-11-11T00:00:00",
           "code": "B2",
           "display": "Echocentrum"
         }

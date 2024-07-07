@@ -20,9 +20,10 @@
     {
       "coding": [
         {
-          "system": "http://snomed.info/sct",
-          "code": "310063007",
-          "display": "Maternity service"
+          "system": "http://nictiz.nl/fhir/NamingSystem/organization-type",
+          "version": "2020-11-11T00:00:00",
+          "code": "K4",
+          "display": "Kraamzorg"
         }
       ]
     }
