@@ -34,14 +34,28 @@
     "display": "Derde zorgepisode Hanna XXX_Kooij-van XXX_Faraday"
   },
   "bodySite": {
-    "coding": [
+    "extension": [
       {
-        "system": "http://snomed.info/sct",
-        "code": "7771000",
-        "display": "links"
+        "url": "http://nictiz.nl/fhir/StructureDefinition/bc-observation-laterality",
+        "valueCodeableConcept": {
+              "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "7771000",
+          "display": "links"
+        }
+      ]
+        }
       }
-    ]
-  },
+    ],
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "40689003",
+          "display": "structuur van testis (lichaamsstructuur)"
+        }
+      ]
+    },
   "method": {
     "coding": [
       {
