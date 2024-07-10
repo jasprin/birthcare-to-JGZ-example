@@ -13,7 +13,7 @@
       {
         "system": "http://snomed.info/sct",
         "code": "55801000146105",
-        "display": "Finding of family details and household composition of child (finding)"
+        "display": "bevinding betreffende gegevens over gezin en gezinssamenstelling van kind (bevinding)"
       }
     ]
   },
@@ -30,7 +30,7 @@
           {
             "system": "http://snomed.info/sct",
             "code": "224130005",
-            "display": "Household composition (observable entity)"
+            "display": "gezinssamenstelling (waarneembare entiteit)"
           }
         ]
       },
@@ -39,7 +39,7 @@
           {
             "system": "http://snomed.info/sct",
             "code": "224139006",
-            "display": "Lives with mother"
+            "display": "woont met moeder (bevinding)"
           }
         ],
         "text": "Woont bij moeder"
@@ -51,7 +51,7 @@
           {
             "system": "http://snomed.info/sct",
             "code": "224095004",
-            "display": "Number of siblings (observable entity)"
+            "display": "aantal broers en/of zussen (waarneembare entiteit)"
           }
         ]
       },
@@ -65,7 +65,7 @@
           "url": "http://nictiz.nl/fhir/StructureDefinition/zib-FamilySituationChild-RelatedPerson",
           "valueReference": {
             "reference": "RelatedPerson/man-xxxkooij-01",
-            "display": "Natural father"
+            "display": "Biologische vader"
           }
         }
       ],
@@ -74,7 +74,7 @@
           {
             "system": "http://snomed.info/sct",
             "code": "40683002",
-            "display": "Parent (person)"
+            "display": "ouder (persoon)"
           }
         ]
       }
@@ -85,7 +85,7 @@
           "url": "http://nictiz.nl/fhir/StructureDefinition/zib-FamilySituationChild-RelatedPerson",
           "valueReference": {
             "reference": "Patient/hanna-xxxkooij",
-            "display": "Natural mother"
+            "display": "Biologische moeder "
           }
         }
       ],
@@ -94,7 +94,7 @@
           {
             "system": "http://snomed.info/sct",
             "code": "40683002",
-            "display": "Parent (person)"
+            "display": "ouder (persoon)"
           }
         ]
       }
@@ -105,7 +105,7 @@
           "url": "http://nictiz.nl/fhir/StructureDefinition/zib-FamilySituationChild-RelatedPerson",
           "valueReference": {
             "reference": "RelatedPerson/kind-xxxkooij-01",
-            "display": "Brother"
+            "display": "Broer"
           }
         }
       ],
@@ -114,7 +114,7 @@
           {
             "system": "http://snomed.info/sct",
             "code": "375005",
-            "display": "Sibling (person)"
+            "display": "broer of zus (persoon)"
           }
         ]
       },
