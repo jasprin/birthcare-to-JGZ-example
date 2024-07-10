@@ -18,7 +18,7 @@
       {
         "system": "http://snomed.info/sct",
         "code": "314845004",
-        "display": "Patient participation status"
+        "display": "status van participatie van patiënt (bevinding)"
       }
     ]
   },
@@ -34,7 +34,7 @@
           {
             "system": "http://snomed.info/sct",
             "code": "364703007",
-            "display": "Employment detail (observable entity)"
+            "display": "arbeidssituatie (waarneembare entiteit)"
           }
         ]
       },
