@@ -19,8 +19,8 @@
     {
       "url": "http://nictiz.nl/fhir/StructureDefinition/observation-focusSTU3",
       "valueReference": {
-        "reference": "Procedure/procedure-bevalling-01",
-        "display": "Bevalling derde zwangerschap Hanna XXX_Kooij-van XXX_Faraday"
+        "reference": "Procedure/procedure-geboorte-01",
+        "display": "Geboorte van Milan XXX_Kooij"
       }
     }
   ],
@@ -48,8 +48,8 @@
     "coding": [
       {
         "system": "http://snomed.info/sct",
-        "code": "177184002",
-        "display": "begeleiding van normale partus (verrichting)"
+        "code": "48782003",
+        "display": "normale partus (bevinding)"
       }
     ]
   }
