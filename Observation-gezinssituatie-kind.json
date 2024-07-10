@@ -64,7 +64,7 @@
         {
           "url": "http://nictiz.nl/fhir/StructureDefinition/zib-FamilySituationChild-RelatedPerson",
           "valueReference": {
-            "reference": "RelatedPerson/man-xxxkooij-01",
+            "reference": "RelatedPerson/vader-xxxkooij-01",
             "display": "Biologische vader"
           }
         }
@@ -84,8 +84,8 @@
         {
           "url": "http://nictiz.nl/fhir/StructureDefinition/zib-FamilySituationChild-RelatedPerson",
           "valueReference": {
-            "reference": "Patient/hanna-xxxkooij",
-            "display": "Biologische moeder "
+            "reference": "RelatedPerson/moeder-xxxkooij-01",
+            "display": "Biologische moeder"
           }
         }
       ],
