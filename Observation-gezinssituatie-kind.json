@@ -104,7 +104,7 @@
         {
           "url": "http://nictiz.nl/fhir/StructureDefinition/zib-FamilySituationChild-RelatedPerson",
           "valueReference": {
-            "reference": "RelatedPerson/kind-xxxkooij-01",
+            "reference": "RelatedPerson/broer-xxxkooij-01",
             "display": "Broer"
           }
         }
