@@ -35,7 +35,7 @@
       {
         "system": "http://hl7.org/fhir/v3/RoleCode",
         "code": "SONC",
-        "display": "Son"
+        "display": "Zoon"
       }
     ]
   },
