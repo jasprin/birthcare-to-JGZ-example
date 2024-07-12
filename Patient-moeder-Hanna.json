@@ -183,5 +183,14 @@
       "reference": "Practitioner/practitioner-huisarts-01",
       "display": "Lydie van der XXX_Ploeg"
     }
+  ],
+  "link": [
+    {
+      "other": {
+        "reference": "RelatedPerson/moeder-xxxkooij-01",
+        "display": "Moeder van Milan"
+      },
+      "type": "seealso"
+    }
   ]
 }
