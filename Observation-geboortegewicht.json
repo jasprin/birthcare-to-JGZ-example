@@ -20,6 +20,11 @@
     "coding": [
       {
         "system": "http://loinc.org",
+        "display": "Lichaamsgewicht [massa]",
+        "code": "29463-7"
+      },
+      {
+        "system": "http://loinc.org",
         "code": "8339-4",
         "display": "Lichaamsgewicht^bij geboorte [massa] d.m.v. meting"
       }
